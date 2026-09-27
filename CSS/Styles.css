@@ -1,0 +1,75 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 3px;
+}
+
+section{
+  display: block;
+  width: 100%;
+}
+
+aside {
+  float: right;
+  display: block;
+  width: 23%;
+}
+
+a {
+  color: dodgerblue;
+}
+
+p {
+  font-size: 12pt;
+  max-width: 800px;
+}
+
+pre {
+  font-family: "Lato", sans-serif;
+  margin: 3px;
+}
+
+img {
+  align-items: center;
+}
+
+iframe {
+  padding: 10px;
+  margin: 0 5%;
+  width: 90%;
+  max-width: 1200px;
+  height: 500px;
+  border: none;
+}
+
+h2 {
+  text-indent: 10%;
+}
+
+li {
+  font-size: 12pt;
+  width: 100%;
+}
+
+button {
+  background-color: darkgreen;
+  Color:white;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  width: 20%;
+  height: 50px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* System Layout control */
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+}
